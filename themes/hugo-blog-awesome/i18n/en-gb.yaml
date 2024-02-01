@@ -1,12 +1,18 @@
 ## HOME ##
 - id: "home.home"
   translation: "Home"
-  
-- id: "home.recent_posts"
-  translation: "Recent Posts"
 
-- id: "home.see_all_posts"
-  translation: "See all posts"
+- id: "home.recent_projects"
+  translation: "Recent Projects"
+
+- id: "home.see_all_projects"
+  translation: "See all projects"
+
+- id: "home.recent_articles"
+  translation: "Recent Articles"
+
+- id: "home.see_all_articles"
+  translation: "See all articles"
 
 ## SINGLE ##
 - id: "single.table_of_contents"

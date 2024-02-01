@@ -18,17 +18,32 @@
     <div class="wrapper">
         {{ partial "bio" . }}
         <main aria-label="Content">
-            <h3 class="posts-item-note" aria-label="Recent Posts">{{ T "home.recent_posts" }}</h3>
-            {{/* Show last 5 posts in reverse date order */}}
-            {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
-            {{ $posts := $pagesToShow.ByDate.Reverse }}
-            {{ range first 5 $posts }}
+            <h2 class="posts-item-note" aria-label="Recent Projects">{{ T "home.recent_projects" }}</h2>
+            {{/* Show last 3 projects in reverse date order */}}
+            {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.projects }}
+            {{ $projects := $pagesToShow.ByDate.Reverse }}
+            {{ range first 3 $projects }}
             {{ partial "postCard" . }}
             {{ end }}
-            {{ if gt (len $posts) 5 }}
+            {{ if gt (len $projects) 3 }}
             <p>
-                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
-                <a href="{{ $firstSection.Permalink }}">{{ T "home.see_all_posts" }}</a>
+                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.projects))) }}
+                <a href="{{ $firstSection.Permalink }}">{{ T "home.see_all_projects" }}</a>
+                {{ end }}
+            </p>
+            {{ end }}
+            <hr>
+            <h2 class="posts-item-note" aria-label="Recent Articles">{{ T "home.recent_articles" }}</h2>
+            {{/* Show last 3 projects in reverse date order */}}
+            {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.articles }}
+            {{ $articles := $pagesToShow.ByDate.Reverse }}
+            {{ range first 3 $articles }}
+            {{ partial "postCard" . }}
+            {{ end }}
+            {{ if gt (len $articles) 3 }}
+            <p>
+                {{ range $secondSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.articles))) }}
+                <a href="{{ $secondSection.Permalink }}">{{ T "home.see_all_articles" }}</a>
                 {{ end }}
             </p>
             {{ end }}
