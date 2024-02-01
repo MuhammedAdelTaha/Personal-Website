@@ -1,4 +1,4 @@
-title = 'My Personal Website'
+title = 'Mohamed Adel'
 
 baseURL = 'https://muhammedadeltaha.github.io/'
 
@@ -85,8 +85,7 @@ rssFeedDescription = "summary" # available options: 1) summary 2) full
 [Languages.en-gb.params.author]
 # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
 intro = "MOHAMED ADEL"
-name = "Sidharth R"
-description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog."
+description = "CSED Student | Passionate Learner | Problem Solver"
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
@@ -105,12 +104,20 @@ TileColor = "#2d89ef" # default windows 10 blue tile color
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/MuhammedAdelTaha"
 
 [[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com"
+name = "linkedin"
+url = "https://www.linkedin.com/in/mohamed-adel-taha-07a08b92c33/"
 
 [[params.socialIcons]]
-name = "Rss"
-url = "index.xml"
+name = "facebook"
+url = "https://www.facebook.com/profile.php?id=100080844923855"
+
+[[params.socialIcons]]
+name = "discord"
+url = "https://discord.com/channels/@muhammedadell"
+
+[[params.socialIcons]]
+name = "medium"
+url = "https://medium.com/@MuhammedAdell"
