@@ -5,242 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ee7ead0-dfbc-4a7b-b72c-ab4285b12159" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/archetypes/articles.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archetypes/projects.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/about/Certificate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/about/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/articles/Better-Understanding-For-AI-Search-Algorithms/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/projects/8-Puzzle-AI-Solver/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/projects/Algorithms/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/projects/Central-Student-Hub/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/projects/Connect-Four-AI-Agent/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/projects/Data-Structures/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/projects/Email-Server/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/projects/Game-Engine/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/projects/Matrix-Multiplication/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/projects/Paint-Application/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/articles/li.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/articles/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/articles/single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/projects/li.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/projects/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/projects/single.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/about.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/authors/hugo-authors/_index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/authors/hugo-authors/_index.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/categories/syntax/_index.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/categories/themes/_index.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/contact.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/contact.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/emoji-support.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/emoji-support.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/external-post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/external-post.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/html-and-css-only-tabs.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/html-and-css-only-tabs.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/markdown-syntax.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/markdown-syntax.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/math-typesetting.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/math-typesetting.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/mermaid-support.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/mermaid-support.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/more-rich-content.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/more-rich-content.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/placeholder-text.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/placeholder-text.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/rich-content.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/rich-content.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects.pt-br.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/tags/shortcodes/_index.pt-br.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/8-Puzzle-AI-Solver/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/8-Puzzle-AI-Solver/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/Algorithms/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/Algorithms/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/Central-Student-Hub/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/Central-Student-Hub/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/Connect-Four-AI-Agent/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/Connect-Four-AI-Agent/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/Data-Structures/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/Data-Structures/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/Email-Server/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/Email-Server/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/Game-Engine/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/Game-Engine/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/Matrix-Multiplication/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/Matrix-Multiplication/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/Paint-Application/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/Paint-Application/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/hugo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/.gitkeep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public" beforeDir="false" afterPath="$PROJECT_DIR$/public" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/about-hugo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/about-us/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/about/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/authors/hugo-authors/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/authors/hugo-authors/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/authors/hugo-authors/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/authors/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/authors/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/authors/lone-coder/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/authors/lone-coder/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/authors/lone-coder/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/authors/lone-coder/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/syntax/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/syntax/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/syntax/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/syntax/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/theme-demo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/theme-demo/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/theme-demo/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/theme-demo/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/contact/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/coder.min.577e3c5ead537873430da16f0964b754a120fd87c4e2203a00686e7c75b51378.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/en/sitemap.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/N90.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/emoji-support/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/html-and-css-only-tabs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/hugo-coder-wiki/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/markdown-syntax/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/math-typesetting/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/mermaid-support/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/migrate-from-jekyl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/more-rich-content/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/placeholder-text/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/posts/rich-content/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projects/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/about-hugo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/about-us/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/about/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/authors/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/authors/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/authors/lone-coder/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/authors/lone-coder/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/authors/lone-coder/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/authors/programador-solitário/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/authors/programador-solitário/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/authors/programador-solitário/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/authors/programador-solitário/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/autores/autores-de-hugo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/autores/autores-de-hugo/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/autores/autores-de-hugo/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categoria/sintaxe/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categoria/sintaxe/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categoria/sintaxe/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categoria/temas/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categoria/temas/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categoria/temas/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categories/demonstração-do-tema/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categories/demonstração-do-tema/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categories/demonstração-do-tema/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categories/demonstração-do-tema/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categories/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categories/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categories/sintaxe/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categories/sintaxe/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categories/sintaxe/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/categories/sintaxe/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/contact/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/emoji-support/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/html-and-css-only-tabs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/hugo-coder-wiki/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/markdown-syntax/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/math-typesetting/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/mermaid-support/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/migrate-from-jekyl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/more-rich-content/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/placeholder-text/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/posts/rich-content/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/projects/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/series/demonstração-do-tema/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/series/demonstração-do-tema/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/series/demonstração-do-tema/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/series/demonstração-do-tema/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/series/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/series/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/sitemap.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/css/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/css/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/css/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/emoji/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/emoji/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/emoji/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/html/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/html/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/hugo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/hugo/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/hugo/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/hugo/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/markdown/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/markdown/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/markdown/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/markdown/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/shortcodes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/shortcodes/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/shortcodes/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/text/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/text/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pt-br/tags/text/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/series/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/series/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/series/theme-demo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/series/theme-demo/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/series/theme-demo/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/series/theme-demo/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/css/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/css/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/css/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/emoji/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/emoji/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/emoji/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/html/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/html/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/hugo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/hugo/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/hugo/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/hugo/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/markdown/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/markdown/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/markdown/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/markdown/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/shortcodes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/shortcodes/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/shortcodes/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/text/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/text/index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tags/text/page/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/coder-dark.scss_9e20ccd2d8034c8e0fd83b11fb6e2bd5.content" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/coder-dark.scss_9e20ccd2d8034c8e0fd83b11fb6e2bd5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/coder.scss_fd4b5b3f9a48bc0c7f005d2f7a4cc30f.content" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/coder.scss_fd4b5b3f9a48bc0c7f005d2f7a4cc30f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/N90.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/favicon.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hugo-coder" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-coder" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -280,7 +56,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/CSED_Projects/Personal-Website/content/about",
+    "last_opened_file_path": "C:/CSED_Projects/Personal-Website/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -292,11 +68,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CSED_Projects\Personal-Website\assets" />
       <recent name="C:\CSED_Projects\Personal-Website\content\about" />
       <recent name="C:\CSED_Projects\Personal-Website\archetypes" />
       <recent name="C:\CSED_Projects\Personal-Website\layouts\partials\projects" />
       <recent name="C:\CSED_Projects\Personal-Website\layouts\projects" />
-      <recent name="C:\CSED_Projects\Personal-Website" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\CSED_Projects\Personal-Website\content\categories" />
@@ -319,7 +95,7 @@
       <workItem from="1706826684318" duration="59000" />
       <workItem from="1706837282797" duration="937000" />
       <workItem from="1706896250332" duration="625000" />
-      <workItem from="1706902128860" duration="10347000" />
+      <workItem from="1706902128860" duration="14751000" />
     </task>
     <servers />
   </component>

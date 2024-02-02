@@ -5,10 +5,12 @@ description = "Illustrating the differences between AI Search Algorithms using t
 slug = "8-puzzle-ai-solver"
 authors = ["Mohamed Adel"]
 tags = [
-    "AI",
-    "Search Algorithms",
+    "Artificial Intelligence",
     "Algorithms",
-    "Python"
+    "Search Algorithms",
+    "Python",
+    "Games",
+    "GUI"
 ]
 categories = ["Artificial Intelligence"]
 +++
@@ -23,6 +25,7 @@ categories = ["Artificial Intelligence"]
 * [Observation](#observation)
 
 ## Introduction
+
 * This project discusses the main differences between the different types of AI Search Algorithms like the completeness and the optimality of the algorithm 
 * We used the 8-puzzle problem as an application that demonstrates these differences
 
@@ -31,19 +34,20 @@ categories = ["Artificial Intelligence"]
 * **Data Structure:** Stack
 * **Completeness:** Not complete
 * **Optimality:** Not optimal
-* **Time:** O(b<sup>m</sup>)
+* **Time:** O(b ^ m)
 * **Space:** O(b * m)
 * **b** is the branching factor
 * **m** is the maximum possible search tree depth
 * DFS is good only when it comes to space complexity
+
 
 ## Breadth First Search
 
 * **Data Structure:** Queue 
 * **Completeness:** Complete
 * **Optimality:** Optimal
-* **Time:** O(b<sup>s</sup>)
-* **Space:** O(b<sup>s</sup>)
+* **Time:** O(b ^ s)
+* **Space:** O(b ^ s)
 * **b** is the branching factor
 * **s** is the level where the goal state is present
 * BFS is not very well dealing with space
@@ -56,7 +60,7 @@ categories = ["Artificial Intelligence"]
 * **Optimality:** Optimal
 * A* Search Always finds the optimal solution
 * A* Search considers the past cost and the upcoming heuristic cost
-* Manhattan distance = |x<sub>1</sub> - x<sub>2</sub>| + |y<sub>1</sub> - y<sub>2</sub>|
+* Manhattan distance = |x1 - x2| + |y1 - y2|
 
 ## A* Search with Euclidean heuristic
 
@@ -65,7 +69,7 @@ categories = ["Artificial Intelligence"]
 * **Optimality:** Optimal
 * A* Search Always finds the optimal solution
 * A* Search considers the past cost and the upcoming heuristic cost
-* Euclidean distance = &radic;((x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup>)
+* Euclidean distance = &radic;((x1 - x2) ^ 2 + (y1 - y2) ^ 2)
 
 ## Test Cases & Comparisons
 

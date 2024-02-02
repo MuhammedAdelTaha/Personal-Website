@@ -1,7 +1,24 @@
 +++
 title = 'Central Student Hub'
 date = 2024-02-01T20:17:39+02:00
+description = "A platform that connects students with their instructors and peers"
+slug = "central-student-hub"
+authors = ["Mohamed Adel"]
+tags = [
+    "Software Engineering",
+    "Database",
+    "React",
+    "Spring Boot",
+    "Jira",
+    "HTML",
+    "CSS",
+    "Java",
+]
+categories = ["Web Development", "Software Engineering"]
 +++
+
+# Table of Contents
+* [Summary](#summary)
 
 ## Summary
 

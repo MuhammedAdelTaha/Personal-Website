@@ -1,7 +1,24 @@
 +++
 title = 'Email Server'
 date = 2024-02-01T19:48:40+02:00
+description = "An Email Server with several features such as add attachment, compose, star, and delete messages"
+slug = "email-server"
+authors = ["Mohamed Adel"]
+tags = [
+    "Design Patterns",
+    "Angular",
+    "Spring Boot",
+    "HTML",
+    "CSS",
+    "Java",
+    "JSON",
+    "XML"
+]
+categories = ["Web Development", "Design Patterns"]
 +++
+
+# Table of Contents
+* [Summary](#summary)
 
 ## Summary
 
