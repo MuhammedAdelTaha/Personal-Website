@@ -1,5 +1,5 @@
 baseURL = "https://muhammedadeltaha.github.io/"
-title = "johndoe"
+title = "Mohamed Adel"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -12,17 +12,12 @@ enableEmoji = true
 noClasses = false
 
 [params]
-author = "John Doe"
+author = "Hi🖐️, I'm Mohamed Adel"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "John Doe's personal website"
+description = "Mohamed Adel's personal website"
 keywords = "blog,developer,personal"
-info = ["Full Stack DevOps", "Magician"]
-avatarURL = "images/avatar.jpg"
-#gravatar = "john.doe@example.com"
-dateFormat = "January 2, 2006"
-since = 2019
-# Git Commit in Footer, uncomment the line below to enable it
-commit = "https://github.com/luizdepra/hugo-coder/tree/"
+info = ["Software Engineer", "Problem Solver", "CSED Student"]
+
 # Right To Left, shift content direction for languagues such as Arabic
 rtl = false
 # Specify light/dark colorscheme
@@ -39,10 +34,8 @@ maxSeeAlsoItems = 5
 customCSS = []
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
 customSCSS = []
-
 # Custom JS
 customJS = []
-
 # Custom remote JS files
 customRemoteJS = []
 
@@ -174,46 +167,11 @@ weight = 1
 url = "about/"
 
 [[languages.en.menu.main]]
-name = "Blog"
+name = "Articles"
 weight = 2
-url = "posts/"
+url = "articles/"
 
 [[languages.en.menu.main]]
 name = "Projects"
 weight = 3
 url = "projects/"
-
-[[languages.en.menu.main]]
-name = "Contact me"
-weight = 5
-url = "contact/"
-
-[languages.pt-br]
-languageName = ":brazil:"
-title = "João Ninguém"
-
-[languages.pt-br.params]
-author = "João Ninguém"
-info = "Full Stack DevOps e Mágico"
-description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
-
-[[languages.pt-br.menu.main]]
-name = "Sobre"
-weight = 1
-url = "about/"
-
-[[languages.pt-br.menu.main]]
-name = "Blog"
-weight = 2
-url = "posts/"
-
-[[languages.pt-br.menu.main]]
-name = "Projetos"
-weight = 3
-url = "projects/"
-
-[[languages.pt-br.menu.main]]
-name = "Contato"
-weight = 5
-url = "contact/"
