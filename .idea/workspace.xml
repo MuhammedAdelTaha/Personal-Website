@@ -5,7 +5,171 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ee7ead0-dfbc-4a7b-b72c-ab4285b12159" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/about.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/authors/hugo-authors/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/authors/hugo-authors/_index.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/categories/syntax/_index.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/categories/themes/_index.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/contact.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/contact.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/emoji-support.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/emoji-support.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/external-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/external-post.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/html-and-css-only-tabs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/html-and-css-only-tabs.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/markdown-syntax.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/math-typesetting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/math-typesetting.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/mermaid-support.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/mermaid-support.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/more-rich-content.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/more-rich-content.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/placeholder-text.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/rich-content.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/projects.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/projects.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/tags/shortcodes/_index.pt-br.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/coder-dark.scss_9e20ccd2d8034c8e0fd83b11fb6e2bd5.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/coder-dark.scss_9e20ccd2d8034c8e0fd83b11fb6e2bd5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/coder.scss_fd4b5b3f9a48bc0c7f005d2f7a4cc30f.content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/_gen/assets/scss/scss/coder.scss_fd4b5b3f9a48bc0c7f005d2f7a4cc30f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/N90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/hugo-coder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/articles/Better-Understanding-For-AI-Search-Algorithms/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/pages/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/projects/8-Puzzle-AI-Solver/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/projects/Algorithms/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/projects/Central-Student-Hub/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/projects/Connect-Four-AI-Agent/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/projects/Data-Structures/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/projects/Email-Server/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/projects/Game-Engine/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/projects/Matrix-Multiplication/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/projects/Paint-Application/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/en/projects/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/main.scss_a4b227022dfae4b28843e276c7e6b126.content" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/scss/sass/main.scss_a4b227022dfae4b28843e276c7e6b126.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/images/avatar_hu0ec38516c89f3b282124f480453884f1_87772_100x100_fill_q75_h2_box_smart1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.devcontainer/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.devcontainer/devcontainer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.github/ISSUE_TEMPLATE/new-blank-issue.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.github/workflows/pr-labeler.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.github/workflows/release.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.github/workflows/scorecard.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.github/workflows/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/archetypes/default.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/code-highlight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/book-icon-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/book-icon-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/mstile-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/mstile-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/icons/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/js/goToTop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_goToTop.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_listpage.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_miscellaneous.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_post.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/_tableOfContent.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/assets/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/assets/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/content/en/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/content/en/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/content/en/posts/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/content/en/posts/emoji-support/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/content/en/posts/markdown-syntax/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/content/en/posts/markdown-syntax/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/markdown-syntax.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/content/en/posts/math-typesetting/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/content/en/posts/placeholder-text/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/placeholder-text.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/content/en/posts/rich-content/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/rich-content.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/exampleSite/content/en/posts/table-of-content/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/i18n/en-gb.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/images/dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/images/light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/images/pagespeed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/images/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/images/tn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/_default/baseof.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/_default/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/_default/rss.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/_default/single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/bio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/browserconfig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/helpers/katex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/meta/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/meta/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/meta/standard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/postCard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/scriptsBodyEnd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/scriptsBodyStart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/socialIcons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/svgs/arrowUp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/svgs/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/svgs/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/svgs/sun.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/svgs/svgs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/layouts/partials/webmanifest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/netlify.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/static/fonts/Roboto/roboto-v30-latin-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/static/fonts/Roboto/roboto-v30-latin-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/static/fonts/Roboto/roboto-v30-latin-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/static/fonts/Roboto/roboto-v30-latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/static/fonts/Roboto/roboto-v30-latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hugo-blog-awesome/theme.toml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +208,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/CSED_Projects/Personal-Website/content/en/projects/8-Puzzle-AI-Solver",
+    "last_opened_file_path": "C:/CSED_Projects/Personal-Website/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,11 +220,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CSED_Projects\Personal-Website\public" />
+      <recent name="C:\CSED_Projects\Personal-Website" />
       <recent name="C:\CSED_Projects\Personal-Website\content\en\projects\8-Puzzle-AI-Solver" />
       <recent name="C:\CSED_Projects\Personal-Website\content\en\pages" />
       <recent name="C:\CSED_Projects\Personal-Website\content\en\projects\markdown-syntax" />
-      <recent name="C:\CSED_Projects\Personal-Website\content\en\articles" />
-      <recent name="C:\CSED_Projects\Personal-Website\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\CSED_Projects\Personal-Website\content\en\articles" />
@@ -78,6 +242,10 @@
       <updated>1706767406051</updated>
       <workItem from="1706767407330" duration="8242000" />
       <workItem from="1706808863570" duration="13993000" />
+      <workItem from="1706826684318" duration="59000" />
+      <workItem from="1706837282797" duration="937000" />
+      <workItem from="1706896250332" duration="625000" />
+      <workItem from="1706902128860" duration="329000" />
     </task>
     <servers />
   </component>
