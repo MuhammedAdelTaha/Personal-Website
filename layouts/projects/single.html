@@ -37,6 +37,18 @@
         {{ end }}
         {{ .Content }}
       </div>
+
+      <footer>
+        {{ partial "projects/series.html" . }}
+        {{ partial "projects/disqus.html" . }}
+        {{ partial "projects/commento.html" . }}
+        {{ partial "projects/utterances.html" . }}
+        {{ partial "projects/giscus.html" . }}
+        {{ partial "projects/mastodon.html" . }}
+        {{ partial "projects/telegram.html" . }}
+      </footer>
     </article>
+
+    {{ partial "projects/math.html" . }}
   </section>
 {{ end }}

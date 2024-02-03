@@ -37,6 +37,18 @@
         {{ end }}
         {{ .Content }}
       </div>
+
+      <footer>
+        {{ partial "articles/series.html" . }}
+        {{ partial "articles/disqus.html" . }}
+        {{ partial "articles/commento.html" . }}
+        {{ partial "articles/utterances.html" . }}
+        {{ partial "articles/giscus.html" . }}
+        {{ partial "articles/mastodon.html" . }}
+        {{ partial "articles/telegram.html" . }}
+      </footer>
     </article>
+
+    {{ partial "articles/math.html" . }}
   </section>
 {{ end }}
