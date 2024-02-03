@@ -4,6 +4,7 @@ date = 2024-02-01T20:18:34+02:00
 description = "Illustrating the differences between AI Search Algorithms using the 8-puzzle problem"
 slug = "8-puzzle-ai-solver"
 authors = ["Mohamed Adel"]
+math = true
 tags = [
     "Artificial Intelligence",
     "Algorithms",
@@ -34,8 +35,8 @@ categories = ["Artificial Intelligence"]
 * **Data Structure:** Stack
 * **Completeness:** Not complete
 * **Optimality:** Not optimal
-* **Time:** O(b ^ m)
-* **Space:** O(b * m)
+* **Time:** O($ b^m $)
+* **Space:** O($ b*m $)
 * **b** is the branching factor
 * **m** is the maximum possible search tree depth
 * DFS is good only when it comes to space complexity
@@ -46,8 +47,8 @@ categories = ["Artificial Intelligence"]
 * **Data Structure:** Queue 
 * **Completeness:** Complete
 * **Optimality:** Optimal
-* **Time:** O(b ^ s)
-* **Space:** O(b ^ s)
+* **Time:** O($ b^s $)
+* **Space:** O($ b^s $)
 * **b** is the branching factor
 * **s** is the level where the goal state is present
 * BFS is not very well dealing with space
@@ -60,7 +61,7 @@ categories = ["Artificial Intelligence"]
 * **Optimality:** Optimal
 * A* Search Always finds the optimal solution
 * A* Search considers the past cost and the upcoming heuristic cost
-* Manhattan distance = |x1 - x2| + |y1 - y2|
+* Manhattan distance = $| x_1 - x_2 | + | y_1 - y_2 |$
 
 ## A* Search with Euclidean heuristic
 
@@ -69,7 +70,7 @@ categories = ["Artificial Intelligence"]
 * **Optimality:** Optimal
 * A* Search Always finds the optimal solution
 * A* Search considers the past cost and the upcoming heuristic cost
-* Euclidean distance = &radic;((x1 - x2) ^ 2 + (y1 - y2) ^ 2)
+* Euclidean distance = $\sqrt{ (x_1 - x_2)^2 + (y_1 - y_2)^2 }$
 
 ## Test Cases & Comparisons
 
@@ -128,6 +129,6 @@ categories = ["Artificial Intelligence"]
 * DFS has the longest paths and the least time in case of no solution
 
 * A* Manhattan time is less than time of A* Euclidean
-  * Reasoning: that Manhattan distance and Euclidean are both admissible but Manhattan distance is larger than Euclidean distance
+  * **Reasoning:** that Manhattan distance and Euclidean are both admissible but Manhattan distance is larger than Euclidean distance
 
 * A* Manhattan/Euclidean heuristics decreases the number of expanded nodes so much than in BFS
