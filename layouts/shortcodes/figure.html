@@ -1,0 +1,15 @@
+{{ $fileType := .Get 0 }}
+{{ $src := .Get 1 }}
+{{ $figNum := .Get 2 }}
+{{ $title := .Get 3 }}
+
+<figure>
+    {{ if eq $fileType "photo" }}
+        <img src="{{ $src }}" width="600px" height="300px" title="{{ $title }}" alt="{{ $title }}">
+    {{ else if eq $fileType "video" }}
+        <video src="{{ $src }}" width="600px" autoplay controls loop title="{{ $title }}"></video>
+    {{ else if eq $fileType "gif" }}
+        <img src="{{ $src }}" width="600px" title="{{ $title }}" alt="{{ $title }}">
+    {{ end }}
+    <figcaption style="font-size: 16px"><b>{{ $figNum }}</b> {{ $title }}</figcaption>
+</figure>
