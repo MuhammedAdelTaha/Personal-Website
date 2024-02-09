@@ -56,7 +56,7 @@ Why not consider looking for the best path?
 As an example, in 8-puzzle problem we know our goal state should be like in **[Figure 1]**.
 We just need to find the path to this state from any given initial state.
 
-{{<figure "photo" "fig1.svg" "Figure 1:" "Goal state in 8-puzzle problem">}}
+{{<figure "img" "fig1.svg" "Figure 1:" "Goal state in 8-puzzle problem" "90%" "200px">}}
 
 In CSPs, we know some constraints that we can judge if the state we have reached is a valid goal state or not.
 As an example, imagine you have a list of numbers that could be put next to each other at any order.
@@ -69,10 +69,18 @@ If it does not violate any constraints, then this could be one of the solutions.
 Note that there could be many possibilities
 that do not violate the constraints, therefore, there could be many solutions to this problem.
 
+Another Famous Example of CSPs is the Map Coloring problem.
+Given Australia's map, we need to color each region in a way that no two adjacent regions have the same color.
+Suppose we have four colors, then we should color the map in a way that satisfies this constraint.
+This is a CSP problem
+because we have constraints that we should satisfy to reach a valid solution to color the map in **[Figure 2]**.
+
+{{<figure "img" "fig2.png" "Figure 2:" "Example of a CSP problem (Map Coloring)" "50%" "100%">}}
+
 Now we have a better understanding of how these algorithms should work. Let us summarize these words at several points:
 * **State space:** the list of states that the problem could be in
 * **Successor function:** the successor states of the current state
-* **Initial state:** the state that I am initially in
+* **Initial state:** the state where the problem initially in
 * **Goal state:** the desired state
 * **path:** the path from the initial state to the goal state
 
@@ -97,7 +105,7 @@ We have several algorithms under this search category. Every algorithm has its o
 What do we need to implement these algorithms?
 * **Frontier (aka Fringe):** we use this data structure to keep track of what to explore next. We may use Stack, Queue, or Priority Queue
 * **Closed Set:** we use this data structure to keep track of what we already explored to avoid repetitive work
-* **Parents Directory:** to keep track of every state's parent. We will use this directory to extract the path
+* **Parents Directory:** to keep track of every state's parent. We will use this directory to extract the path from the initial state to the goal state
 
 These Algorithms differ only in the successor function, which is the states to be explored next.
 We use different data structures usually called fringe or frontier to control these exploration techniques.
@@ -106,20 +114,23 @@ We use different data structures usually called fringe or frontier to control th
 
 ### Depth-First Search (DFS)
 #### Overview
-In DFS, we explore nodes with the highest depth first like in **[Figure 2]**.
+In DFS, we explore nodes with the highest depth first like in **[Figure 3]**.
 
-{{<figure "video" "fig2.mp4" "Figure 2:" "DFS Visualization">}}
+{{<figure "video" "fig3.mp4" "Figure 3:" "DFS Visualization" "90%" "100%">}}
 
 #### Frontier
 We choose the Stack data structure to be our frontier in DFS.
 
-**The main idea of using Stack is:** the state pushes its successor states in the stack
+**The main idea of using Stack is:** 
+
+The state pushes its successor states in the stack
 and takes the top of the Stack and pushes its successor states and so on until we reach a leaf node,
 then we start to backtrack.
 This ensures that we will explore nodes with the highest depth first.
 
 {{< notice note >}}
-Why we need both (Frontier, Closed Set).
+**Why do we need both Frontier and Closed Set?**
+
 If the state is on the frontier, that does not mean that it has to be in the Closed Set and vice versa.
 If the state is on the frontier, that means that this state will be explored soon.
 If the state is in the Closed Set that means, it has already been explored, and we pushed all its successor states.
@@ -151,7 +162,7 @@ def dfs(initial_state):
 First, we initialize the frontier to contain only the initial state.
 And the explored set to be empty.
 And the parents' directory contains the initial state as a parent to itself
-(This will help to know that this is the root of the tree).
+(This will help us to know that this is the root of the tree).
 
 Second, we start looping as long the frontier is not empty.
 If there is no solution,
@@ -191,29 +202,31 @@ Time complexity = Number of expanded nodes = $O(b^m)$
 
 #### Space Complexity
 In our frontier, we will store the successors
-presented in the branch from the initial state to the goal state like in **[Figure 3]**.
+presented in the branch from the initial state to the goal state like in **[Figure 4]**.
 
 We will store (b) nodes for (m) depth.
 
 Space complexity = $O(b*m)$
 
-{{<figure "photo" "fig3.svg" "Figure 3:" "Visualization of the nodes pushed into the frontier in DFS">}}
+{{<figure "img" "fig4.svg" "Figure 4:" "Visualization of the nodes pushed into the frontier in DFS" "90%" "100%">}}
 
 ---
 
 ### Breadth-First Search (BFS)
 #### Overview
-In BFS, we explore nodes with the shallowest depth first like in **[Figure 4]**.
+In BFS, we explore nodes with the shallowest depth first like in **[Figure 5]**.
 
-{{<figure "video" "fig4.mp4" "Figure 4:" "BFS Visualization">}}
+{{<figure "video" "fig5.mp4" "Figure 5:" "BFS Visualization" "90%" "100%">}}
 
 #### Frontier
 We choose the Queue data structure to be our frontier in BFS.
 
-**Main idea of using Queue is:** 
-the state pushes its successor states into the Queue
+**Main idea of using Queue is:**
+
+The state pushes its successor states into the Queue
 and takes the top of the Queue and pushes its successor states into 
 the Queue and so on until we reach a leaf node, then we start to backtrack.
+This ensures that we will explore nodes with the shallowest depth first.
 
 #### Implementation
 ```python
@@ -246,6 +259,7 @@ BFS is complete because it searches the tree level by level. So, it will not go 
 #### Optimality
 BFS is optimal only if all branches have the same cost, because it finds the path with the least number of edges,
 therefore, it will find the optimal path if all branches have the same cost.
+Also, the cost of edges should be non-negative.
 
 #### Time Complexity
 If our search tree has a branching factor (b) and our solution is at depth (m).
@@ -259,22 +273,22 @@ Time complexity = Number of expanded nodes = $O(b^m)$
 
 #### Space Complexity
 In our frontier, we will store at least all nodes in a level when exploring this level.
-The worst-case scenario that our goal is a leaf node, so our frontier will contain all leaves like in **[Figure 5]**.
+The worst-case scenario that our goal is a leaf node, so our frontier will contain all leaves like in **[Figure 6]**.
 
 The number of leaves = $b^m$
 
 Space complexity = $O(b^m)$
 
-{{<figure "photo" "fig5.svg" "Figure 5:" "Visualization of the nodes pushed into the frontier in BFS">}}
+{{<figure "img" "fig6.svg" "Figure 6:" "Visualization of the nodes pushed into the frontier in BFS" "90%" "100%">}}
 
 ---
 
 ### Depth-Limited Search (DLS)
 #### Overview
-In DLS, we explore nodes with the highest depth first like in **[Figure 6]**.
+In DLS, we explore nodes with the highest depth first like in **[Figure 7]**.
 But the difference here that we explore until we reach a specific depth.
     
-{{<figure "gif" "fig6.gif" "Figure 6:" "DLS Visualization">}}
+{{<figure "img" "fig7.gif" "Figure 7:" "DLS Visualization" "90%" "100%">}}
 
 #### Frontier
 We choose the Stack data structure to be our frontier in DLS like in DFS.
@@ -312,10 +326,10 @@ but we check if the depth reaches the specified max depth then we continue with 
 
 #### Completeness
 DLS is not complete because it backtracks if it reaches a specified depth.
-The goal state may lie in the next level like in **[Figure 6]**.
+The goal state may lie in the next level like in **[Figure 7]**.
 
 #### Optimality
-The DLS is not optimal for the same reasons in DFS.
+DLS is not optimal for the same reasons in DFS.
 
 #### Time Complexity
 Same as DFS, but with depth (d) (the maximum depth).
@@ -332,11 +346,12 @@ Space complexity = $O(b*d)$
 ### Iterative Deepening DFS (ID-DFS)
 #### Overview
 In ID-DFS we do DLS for max depth from 1 to m, where (m) is the depth at which the goal node lies.
+Like in **[Figure 8]**.
 
-{{<figure "gif" "fig7.gif" "Figure 7:" "ID-DFS Visualization">}}
+{{<figure "img" "fig8.gif" "Figure 8:" "ID-DFS Visualization" "90%" "100%">}}
 
 #### Frontier
-We choose the Stack data structure to be our frontier in ID-DLS like in DFS and DLS.
+We choose the Stack data structure to be our frontier in ID-DFS like in DFS and DLS.
 
 #### Implementation
 ```python
@@ -378,15 +393,16 @@ def iddfs(initial_state):
     return state
 ```
 
-We run DLS for d initially equals one until we find our goal state.
+We run DLS for d initially equals one and increment d by one until we find our goal state.
 
 #### Completeness
-ID-DLS is complete, it runs level by level until finding the goal state. In other words, it uses DFS and BFS together.
+ID-DFS is complete, it runs level by level until finding the goal state. In other words, it uses DFS and BFS together.
 
 #### Optimality
-ID-DLS is optimal, it runs level by level until finding the goal state,
+ID-DFS is optimal, it runs level by level until finding the goal state,
 so it will find the path with the least number of edges.
 But like BFS, it is optimal only if all branches have the same cost.
+Also, the cost of edges should be non-negative.
 
 #### Time Complexity
 The goal node lies at depth (m).
@@ -405,15 +421,19 @@ Space complexity = $O(b*m)$
 
 ### Uniform Cost Search (UCS)
 #### Overview
-In UCS, we explore nodes with the least cost first.
+In UCS, we explore nodes with the least cost first like in **[Figure 9]**.
+
+{{<figure "img" "fig9.gif" "Figure 9:" "UCS Visualization" "70%" "100%">}}
 
 #### Frontier
 We choose the Priority Queue data structure to be our frontier in UCS.
 
 **Main idea of using Priority Queue is:**
-the state pushes its successor states into the Priority Queue
+
+The state pushes its successor states into the Priority Queue
 and takes the top of the Priority Queue and pushes its successor states into the Priority Queue
 and so on until we reach a leaf node, then we start to backtrack.
+This ensures that we will explore nodes with the least cost first.
 
 #### Implementation
 ```python
@@ -439,20 +459,22 @@ def ucs(initial_state):
     return None
 ```
 
-Same steps in BFS, but with a Priority Queue data structure as our frontier.
+Same steps, but with a Priority Queue data structure as our frontier.
 
 #### Completeness
-UCS is complete because it searches the tree level by level. So, it will not go in an infinite branch.
+UCS is complete because it explores nodes with the least cost first. So, it will not go in an infinite branch.
 
 #### Optimality
-UCS is optimal because it finds the path with the least cost.
+UCS is optimal
+because it finds the path with the least cost even if the edges have different costs or there exist negative edges.
 
 #### Time Complexity
-Same as BFS, but with the cost of each edge.
+Processes all nodes with cost less than the cheapest solution.
+If that solution costs C* and arcs cost at least $\epsilon$, then the **effective depth** is roughly $C^*/\epsilon$.
 
-Time complexity = $O(b^m)$
+Time complexity = $O(b^{C^*/\epsilon})$
 
 #### Space Complexity
-Same as BFS, but with the cost of each edge.
+The space complexity is the same as BFS. The space complexity will be the space complexity of BFS for the maximum depth.
 
-Space complexity = $O(b^m)$
+Space complexity = $O(b^{C^*/\epsilon})$

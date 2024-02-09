@@ -2,14 +2,14 @@
 {{ $src := .Get 1 }}
 {{ $figNum := .Get 2 }}
 {{ $title := .Get 3 }}
+{{ $width := .Get 4 }}
+{{ $height := .Get 5 }}
 
 <figure>
-    {{ if eq $fileType "photo" }}
-        <img src="{{ $src }}" width="90%" height="250px" title="{{ $title }}" alt="{{ $title }}">
+    {{ if eq $fileType "img" }}
+        <img src="{{ $src }}" width="{{ $width }}" height="{{ $height }}" title="{{ $title }}" alt="{{ $title }}">
     {{ else if eq $fileType "video" }}
-        <video src="{{ $src }}" width="90%" autoplay controls loop title="{{ $title }}"></video>
-    {{ else if eq $fileType "gif" }}
-        <img src="{{ $src }}" width="90%" title="{{ $title }}" alt="{{ $title }}">
+        <video src="{{ $src }}" width="{{ $width }}" height="{{ $height }}" autoplay controls loop title="{{ $title }}"></video>
     {{ end }}
     <figcaption style="font-size: 16px"><b>{{ $figNum }}</b> {{ $title }}</figcaption>
 </figure>
