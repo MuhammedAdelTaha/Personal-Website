@@ -9,7 +9,7 @@
     {{ if eq $fileType "img" }}
         <img src="{{ $src }}" width="{{ $width }}" height="{{ $height }}" title="{{ $title }}" alt="{{ $title }}">
     {{ else if eq $fileType "video" }}
-        <video src="{{ $src }}" width="{{ $width }}" height="{{ $height }}" autoplay controls loop title="{{ $title }}"></video>
+        <video src="{{ $src }}" width="{{ $width }}" height="{{ $height }}" controls title="{{ $title }}"></video>
     {{ end }}
     <figcaption style="font-size: 16px"><b>{{ $figNum }}</b> {{ $title }}</figcaption>
 </figure>
