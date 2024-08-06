@@ -7,28 +7,16 @@ author = "Mohamed Adel"
 
 # Table of Contents
 * [Skills](#skills)
-* [Experience](#experience)
-  * [Software Engineering Intern](#software-engineering-intern)
 * [Education](#education)
 * [Courses](#courses)
 * [Certificates](#certificates)
 
 ## Skills
-* **Basics:** Algorithms | Classic AI | Data Structures | Database Systems | Design Patterns | Functional Programming | Multithreading | OOP
+* **Basics:** Algorithms | Classic AI | Machine Learning | Deep Learning | Computer Vision | Data Structures | Database Systems | Design Patterns | Functional Programming | Multithreading | OOP
 * **Programming Languages:** C | C++ | CSS | HTML | Java | JavaScript | Prolog | Python | R | TypeScript
-* **Frameworks:** Angular CLI | Spring Boot
+* **Frameworks:** Angular CLI | Spring Boot | TensorFlow | Scikit-learn
 * **Soft Skills:** Code Review | Git & GitHub | Jira | Passionate Learner | Problem Solver | Teamwork
 * **Languages:** Arabic, English _– All professional proficiency or above_
-
-## Experience
-
-### Software Engineering Intern
-* **Company:** SIDPEC
-* **Skills:** Software Project Management | Microsoft SQL Server | Network Security
-* **Location:** Alexandria, Egypt
-* **Duration:** Two weeks
-
-![Certificate](Certificate.jpg)
 
 ## Education
 * **Major:** Computer and Systems Engineering Department
@@ -45,7 +33,7 @@ author = "Mohamed Adel"
     * Physics 1
     * Engineering drawing 1
     * Computers & Programming
-    * Principles of Manufacturing Engineering
+    * Principles of Manufacturing and Engineering
     * English Language
 * **Spring 2020-2021**
     * Human Rights
@@ -79,7 +67,7 @@ author = "Mohamed Adel"
 * **Spring 2022-2023**
     * Technical Writing
     * Fundamentals of Control Systems
-    * Operations Research and Optimization Techniques
+    * Operation Research and Optimization Techniques
     * Data Structures and Algorithms
     * Programming Languages Paradigms
     * Operating Systems
@@ -90,6 +78,13 @@ author = "Mohamed Adel"
     * Innovation and Entrepreneurship
     * Computer Networks
     * Introduction to Artificial Intelligence
+* **Spring 2023-2024**
+    * Pattern Recognition
+    * Embedded Control System
+    * Computer Architecture
+    * Digital and Modern Control Systems
+    * Computer Graphics
+    * Critical Thinking
 
 ## Certificates
 * **Introduction to Scripting in Python:** [Certificate-Link](https://www.coursera.org/account/accomplishments/certificate/FRRH3RLYU4BJ) _- Coursera - September 2023_
