@@ -24,13 +24,14 @@ categories = ["Artificial Intelligence"]
 * [A* Search with Euclidean heuristic](#a-search-with-euclidean-heuristic)
 * [Test Cases & Comparisons](#test-cases--comparisons)
 * [Observation](#observation)
+* [Simulation](#simulation)
 
 ## Introduction
 
 * This project discusses the main differences between the different types of AI Search Algorithms like the completeness and the optimality of the algorithm 
 * We used the 8-puzzle problem as an application that demonstrates these differences
 
-## Depth First Search
+## Depth-First Search
 
 * **Data Structure:** Stack
 * **Completeness:** Not complete
@@ -42,7 +43,7 @@ categories = ["Artificial Intelligence"]
 * DFS is good only when it comes to space complexity
 
 
-## Breadth First Search
+## Breadth-First Search
 
 * **Data Structure:** Queue 
 * **Completeness:** Complete
@@ -51,7 +52,7 @@ categories = ["Artificial Intelligence"]
 * **Space:** O($ b^s $)
 * **b** is the branching factor
 * **s** is the level where the goal state is present
-* BFS is not very well dealing with space
+* BFS is not very well dealt with space
 * BFS can find the optimal solution only if all costs are equal to one
 
 ## A* Search with Manhattan heuristic
@@ -132,3 +133,7 @@ categories = ["Artificial Intelligence"]
   * **Reasoning:** that Manhattan distance and Euclidean are both admissible but Manhattan distance is larger than Euclidean distance
 
 * A* Manhattan/Euclidean heuristics decreases the number of expanded nodes so much than in BFS
+
+## Simulation
+
+{{<figure "video" "video.mp4" "8-Puzzle-AI-Solver Simulation" "" "90%" "100%">}}

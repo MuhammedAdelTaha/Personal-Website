@@ -23,7 +23,6 @@ categories = ["Artificial Intelligence"]
   * [Depth-Limited Search (DLS)](#depth-limited-search-dls)
   * [Iterative Deepening DFS (ID-DFS)](#iterative-deepening-dfs-id-dfs)
   * [Uniform Cost Search (UCS)](#uniform-cost-search-ucs)
-
 ---
 
 ## Main Idea

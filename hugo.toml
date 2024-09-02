@@ -12,11 +12,12 @@ enableEmoji = true
 noClasses = false
 
 [params]
-author = "Hi🖐️, I'm Mohamed Adel"
+author = "Mohamed Adel"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Mohamed Adel's personal website"
 keywords = "blog,developer,personal"
-info = ["Machine Learning Engineer", "Software Engineer", "Math Enthusiast"]
+info = ["Machine Learning Engineer", "Software Engineer"]
+avatarURL = "images/avatar.jpg"
 
 # Right To Left, shift content direction for languagues such as Arabic
 rtl = false

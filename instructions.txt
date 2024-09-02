@@ -1,0 +1,5 @@
+1- To add a new article use the following command:
+```hugo new articles/your-article-name/index.md```
+
+2- To add a new project use the following command:
+```hugo new projects/your-project-name/index.md```
