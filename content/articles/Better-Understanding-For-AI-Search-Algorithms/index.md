@@ -55,7 +55,7 @@ Why not consider looking for the best path?
 As an example, in 8-puzzle problem we know our goal state should be like in **[Figure 1]**.
 We just need to find the path to this state from any given initial state.
 
-{{<figure "img" "fig1.svg" "Figure 1:" "Goal state in 8-puzzle problem" "90%" "200px">}}
+{{<figure "img" "fig1.svg" "Figure 1" "Goal state in 8-puzzle problem" "90%" "200px" "none" "True">}}
 
 In CSPs, we know some constraints that we can judge if the state we have reached is a valid goal state or not.
 As an example, imagine you have a list of numbers that could be put next to each other at any order.
@@ -74,7 +74,7 @@ Suppose we have four colors, then we should color the map in a way that satisfie
 This is a CSP problem
 because we have constraints that we should satisfy to reach a valid solution to color the map in **[Figure 2]**.
 
-{{<figure "img" "fig2.png" "Figure 2:" "Example of a CSP problem (Map Coloring)" "50%" "100%">}}
+{{<figure "img" "fig2.png" "Figure 2" "Example of a CSP problem (Map Coloring)" "50%" "100%" "none" "True">}}
 
 Now we have a better understanding of how these algorithms should work. Let us summarize these words at several points:
 * **State space:** the list of states that the problem could be in
@@ -115,7 +115,7 @@ We use different data structures usually called fringe or frontier to control th
 #### Overview
 In DFS, we explore nodes with the highest depth first like in **[Figure 3]**.
 
-{{<figure "video" "fig3.mp4" "Figure 3:" "DFS Visualization" "90%" "100%">}}
+{{<figure "video" "fig3.mp4" "Figure 3" "DFS Visualization" "90%" "100%" "none" "True">}}
 
 #### Frontier
 We choose the Stack data structure to be our frontier in DFS.
@@ -207,7 +207,8 @@ We will store (b) nodes for (m) depth.
 
 Space complexity = $O(b*m)$
 
-{{<figure "img" "fig4.svg" "Figure 4:" "Visualization of the nodes pushed into the frontier in DFS" "90%" "100%">}}
+{{<figure "img" "fig4.svg" "Figure 4"
+"Visualization of the nodes pushed into the frontier in DFS" "90%" "100%" "none" "True">}}
 
 ---
 
@@ -215,7 +216,7 @@ Space complexity = $O(b*m)$
 #### Overview
 In BFS, we explore nodes with the shallowest depth first like in **[Figure 5]**.
 
-{{<figure "video" "fig5.mp4" "Figure 5:" "BFS Visualization" "90%" "100%">}}
+{{<figure "video" "fig5.mp4" "Figure 5" "BFS Visualization" "90%" "100%" "none" "True">}}
 
 #### Frontier
 We choose the Queue data structure to be our frontier in BFS.
@@ -278,7 +279,8 @@ The number of leaves = $b^m$
 
 Space complexity = $O(b^m)$
 
-{{<figure "img" "fig6.svg" "Figure 6:" "Visualization of the nodes pushed into the frontier in BFS" "90%" "100%">}}
+{{<figure "img" "fig6.svg" "Figure 6"
+"Visualization of the nodes pushed into the frontier in BFS" "90%" "100%" "none" "True">}}
 
 ---
 
@@ -287,7 +289,7 @@ Space complexity = $O(b^m)$
 In DLS, we explore nodes with the highest depth first like in **[Figure 7]**.
 But the difference here that we explore until we reach a specific depth.
     
-{{<figure "img" "fig7.gif" "Figure 7:" "DLS Visualization" "90%" "100%">}}
+{{<figure "img" "fig7.gif" "Figure 7" "DLS Visualization" "90%" "100%" "none" "True">}}
 
 #### Frontier
 We choose the Stack data structure to be our frontier in DLS like in DFS.
@@ -347,7 +349,7 @@ Space complexity = $O(b*d)$
 In ID-DFS we do DLS for max depth from 1 to m, where (m) is the depth at which the goal node lies.
 Like in **[Figure 8]**.
 
-{{<figure "img" "fig8.gif" "Figure 8:" "ID-DFS Visualization" "90%" "100%">}}
+{{<figure "img" "fig8.gif" "Figure 8" "ID-DFS Visualization" "90%" "100%" "none" "True">}}
 
 #### Frontier
 We choose the Stack data structure to be our frontier in ID-DFS like in DFS and DLS.
@@ -422,7 +424,7 @@ Space complexity = $O(b*m)$
 #### Overview
 In UCS, we explore nodes with the least cost first like in **[Figure 9]**.
 
-{{<figure "img" "fig9.gif" "Figure 9:" "UCS Visualization" "70%" "100%">}}
+{{<figure "img" "fig9.gif" "Figure 9" "UCS Visualization" "70%" "100%" "none" "True">}}
 
 #### Frontier
 We choose the Priority Queue data structure to be our frontier in UCS.

@@ -136,4 +136,4 @@ categories = ["Artificial Intelligence"]
 
 ## Simulation
 
-{{<figure "video" "video.mp4" "8-Puzzle-AI-Solver Simulation" "" "90%" "100%">}}
+{{<figure "video" "video.mp4" "8-Puzzle-AI-Solver Simulation" "90%" "100%" "none" "True">}}

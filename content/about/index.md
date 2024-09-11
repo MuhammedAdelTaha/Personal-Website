@@ -12,11 +12,9 @@ author = "Mohamed Adel"
 * [Certificates](#certificates)
 
 ## Skills
-* **Basics:** Algorithms | Classic AI | Machine Learning | Deep Learning | Computer Vision | Data Structures | Database Systems | Design Patterns | Functional Programming | Multithreading | OOP
-* **Programming Languages:** C | C++ | CSS | HTML | Java | JavaScript | Prolog | Python | R | TypeScript
-* **Frameworks:** Angular CLI | Spring Boot | TensorFlow | Scikit-learn
-* **Soft Skills:** Code Review | Git & GitHub | Jira | Passionate Learner | Problem Solver | Teamwork
-* **Languages:** Arabic, English _– All professional proficiency or above_
+* **Professional Working:** Python, Java, C++, SQL, Julia, Spring Boot, OpenGL, Git, Jira
+* **Familiar with:** R, Prolog, HTML, CSS, JavaScript, TypeScript, Angular CLI
+* **Soft Skills:** Code Review, Teamwork, Project Management
 
 ## Education
 * **Major:** Computer and Systems Engineering Department
@@ -88,3 +86,13 @@ author = "Mohamed Adel"
 
 ## Certificates
 * **Introduction to Scripting in Python:** [Certificate-Link](https://www.coursera.org/account/accomplishments/certificate/FRRH3RLYU4BJ) _- Coursera - September 2023_
+
+## Badges
+
+{{<figure "img" "aws-academy-graduate-aws-academy-cloud-foundations.png" "AWS Academy" "Cloud Foundations" "20%" "" "left" "">}}
+{{<figure "img" "aws-academy-graduate-aws-academy-cloud-developing.png" "AWS Academy" "Cloud Developing" "20%" "" "left" "">}}
+{{<figure "img" "aws-academy-graduate-aws-academy-cloud-security-foundations.png" "AWS Academy" "Cloud Security Foundations" "20%" "" "left" "">}}
+{{<figure "img" "aws-academy-graduate-aws-academy-data-engineering.png" "AWS Academy" "Data Engineering" "20%" "" "left" "">}}
+{{<figure "img" "aws-academy-graduate-aws-academy-machine-learning-foundations.png" "AWS Academy" "Machine Learning Foundations" "20%" "" "left" "">}}
+{{<figure "img" "aws-academy-graduate-aws-academy-machine-learning-for-natural-language-processing.png" "AWS Academy" "Machine Learning for Natural Language Processing" "20%" "" "left" "">}}
+{{<clear>}}

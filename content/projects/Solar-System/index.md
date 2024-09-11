@@ -12,4 +12,4 @@ tags = [
 categories = ["Graphics"]
 +++
 
-{{<figure "video" "video.mp4" "Solar System Simulation" "" "90%" "100%">}}
+{{<figure "video" "video.mp4" "Solar System Simulation" "90%" "100%" "none" "True">}}

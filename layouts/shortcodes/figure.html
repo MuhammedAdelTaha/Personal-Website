@@ -1,15 +1,21 @@
 {{ $fileType := .Get 0 }}
 {{ $src := .Get 1 }}
-{{ $figNum := .Get 2 }}
-{{ $title := .Get 3 }}
+{{ $figName := .Get 2 }}
+{{ $description := .Get 3 }}
 {{ $width := .Get 4 }}
 {{ $height := .Get 5 }}
+{{ $floatCond := .Get 6 }}
+{{ $addCaption := .Get 7 }}
 
 <figure>
     {{ if eq $fileType "img" }}
-        <img src="{{ $src }}" width="{{ $width }}" height="{{ $height }}" title="{{ $title }}" alt="{{ $title }}">
+        <img src="{{ $src }}" title="{{ $figName }}: {{ $description }}" alt="{{ $figName }}: {{ $description }}"
+             width="{{ $width }}" height="{{ $height }}" style="float: {{ $floatCond }}">
     {{ else if eq $fileType "video" }}
-        <video src="{{ $src }}" width="{{ $width }}" height="{{ $height }}" controls title="{{ $title }}"></video>
+        <video src="{{ $src }}" controls title="{{ $figName }}: {{ $description }}" width="{{ $width }}"
+               height="{{ $height }}" style="float: {{ $floatCond }}"></video>
     {{ end }}
-    <figcaption style="font-size: 16px"><b>{{ $figNum }}</b> {{ $title }}</figcaption>
+    {{ if eq $addCaption "True" }}
+        <figcaption style="font-size: 16px"><b>{{ $figName }}:</b> {{ $description }}</figcaption>
+    {{ end }}
 </figure>
