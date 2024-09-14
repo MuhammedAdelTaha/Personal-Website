@@ -59,8 +59,8 @@ url = "https://github.com/MuhammedAdelTaha/"
 [[params.social]]
 name = "Medium"
 icon = "fa-brands fa-medium fa-2x"
-weight = 4
-url = "https://medium.com/@MuhammedAdell/"
+weight = 5
+url = "https://muhammedadeltaha.medium.com/"
 
 [languages.en]
 languageName = ":uk:"

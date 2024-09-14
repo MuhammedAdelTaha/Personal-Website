@@ -10,6 +10,9 @@ author = "Mohamed Adel"
 * [Education](#education)
 * [Courses](#courses)
 * [Certificates](#certificates)
+* [Badges](#badges)
+  * [AWS Academy](#aws-academy)
+  * [LeetCode](#leetcode)
 
 ## Skills
 * **Professional Working:** Python, Java, C++, SQL, Julia, Spring Boot, OpenGL, Git, Jira
@@ -88,11 +91,17 @@ author = "Mohamed Adel"
 * **Introduction to Scripting in Python:** [Certificate-Link](https://www.coursera.org/account/accomplishments/certificate/FRRH3RLYU4BJ) _- Coursera - September 2023_
 
 ## Badges
-
+### AWS Academy
 {{<figure "img" "aws-academy-graduate-aws-academy-cloud-foundations.png" "AWS Academy" "Cloud Foundations" "20%" "" "left" "">}}
 {{<figure "img" "aws-academy-graduate-aws-academy-cloud-developing.png" "AWS Academy" "Cloud Developing" "20%" "" "left" "">}}
 {{<figure "img" "aws-academy-graduate-aws-academy-cloud-security-foundations.png" "AWS Academy" "Cloud Security Foundations" "20%" "" "left" "">}}
 {{<figure "img" "aws-academy-graduate-aws-academy-data-engineering.png" "AWS Academy" "Data Engineering" "20%" "" "left" "">}}
 {{<figure "img" "aws-academy-graduate-aws-academy-machine-learning-foundations.png" "AWS Academy" "Machine Learning Foundations" "20%" "" "left" "">}}
 {{<figure "img" "aws-academy-graduate-aws-academy-machine-learning-for-natural-language-processing.png" "AWS Academy" "Machine Learning for Natural Language Processing" "20%" "" "left" "">}}
+{{<clear>}}
+
+### LeetCode
+{{<figure "img" "Feb-LeetCoding-Challenge-2024.gif" "LeetCode" "Feb LeetCoding Challenge 2024" "20%" "" "left" "">}}
+{{<figure "img" "Mar-LeetCoding-Challenge-2024.gif" "LeetCode" "Mar LeetCoding Challenge 2024" "20%" "" "left" "">}}
+{{<figure "img" "LeetCode-50-Days-Badge-2024.gif" "LeetCode" "LeetCode 50 Days Badge 2024" "20%" "" "left" "">}}
 {{<clear>}}
