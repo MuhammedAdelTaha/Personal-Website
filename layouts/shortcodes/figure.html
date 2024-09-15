@@ -9,13 +9,14 @@
 
 <figure>
     {{ if eq $fileType "img" }}
-        <img src="{{ $src }}" title="{{ $figName }}: {{ $description }}" alt="{{ $figName }}: {{ $description }}"
-             width="{{ $width }}" height="{{ $height }}" style="float: {{ $floatCond }}">
+        <img src="{{ $src }}" title="{{ $description }}" alt="{{ $description }}" width="{{ $width }}"
+             height="{{ $height }}" style="float: {{ $floatCond }}; border-radius: 15px;
+             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25);">
     {{ else if eq $fileType "video" }}
-        <video src="{{ $src }}" controls title="{{ $figName }}: {{ $description }}" width="{{ $width }}"
+        <video src="{{ $src }}" controls title="{{ $description }}" width="{{ $width }}"
                height="{{ $height }}" style="float: {{ $floatCond }}"></video>
     {{ end }}
     {{ if eq $addCaption "True" }}
-        <figcaption style="font-size: 16px"><b>{{ $figName }}:</b> {{ $description }}</figcaption>
+        <figcaption style="font-size: 16px"><b>{{ $figName }}</b> {{ $description }}</figcaption>
     {{ end }}
 </figure>
