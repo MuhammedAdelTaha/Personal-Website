@@ -11,7 +11,7 @@
     {{ if eq $fileType "img" }}
         <img src="{{ $src }}" title="{{ $description }}" alt="{{ $description }}" width="{{ $width }}"
              height="{{ $height }}" style="float: {{ $floatCond }}; border-radius: 15px;
-             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25);">
+             box-shadow: 0 0 15px 3px rgba(115,115,115,0.25); margin-right: 5px">
     {{ else if eq $fileType "video" }}
         <video src="{{ $src }}" controls title="{{ $description }}" width="{{ $width }}"
                height="{{ $height }}" style="float: {{ $floatCond }}"></video>
